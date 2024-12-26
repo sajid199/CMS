@@ -10,7 +10,7 @@
  *****************************************************************************/
 
 #admidio-main-navbar {
-    background-color: #349aaa;
+    background-color: #4bb885;
     min-height: 4rem;
     position: sticky;
     padding-bottom: 0;
@@ -26,6 +26,13 @@
 #admidio-main-navbar .navbar-brand img {
     margin-right: 10px;
 }
+#admidio-main-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-top: 0;
+}
+
 
 #admidio-main-navbar a {
     color: #263340;
@@ -61,7 +68,7 @@
 /***********************************/
 .admidio-sidebar {
     padding: 0;
-    background-color: #263340;
+    background-color: #4bb885;
     overflow-y: auto;
 }
 
@@ -85,7 +92,18 @@
 }
 
 .admidio-menu-list a {
-    color: #dddddd;
+    color: #ffffff
+}
+.btn-secondary {
+    background-color: #44930c!important;
+    border-color: #15d21c !important;
+}
+.btn-secondary:hover {
+    border-color: #a9e880 !important;
+    box-shadow: 0 0 0 0.2rem rgba(73, 171, 143, 0.5) !important;
+}
+.accordion .card-header:hover{
+    background-color: #adc437 !important;
 }
 
 .admidio-menu-list .dropdown-item {
@@ -94,7 +112,7 @@
 
 .admidio-menu-list a:hover {
     color: #ffffff;
-    background-color: #324b64;
+    background-color: #adc437;
 }
 
 @media (min-width: 768px)
@@ -117,7 +135,7 @@
     text-transform: uppercase;
     padding: 8px 16px;
     margin: 0;
-    color: rgba(222, 222, 222, 0.65);
+    color: #ffffff;
 }
 
 /***********************************/
@@ -581,7 +599,7 @@ input[type=time] {
 }
 
 #plgCalendarTable td.plgCalendarToday {
-    background-color: #324b64;
+    background-color: #4bb885;
     border-radius: 5px;
     color: white;
 }
